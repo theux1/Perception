@@ -7,3 +7,11 @@ Emphasize Color (red): #F40606;
 Font Color Headings (black): #000000;
 Font Color Text (grey-black): #2C2C2C;
 */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* insert index.html header {
+    font-family: 'Rum Raisin', sans-serif;
+} */
