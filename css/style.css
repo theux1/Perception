@@ -9,8 +9,33 @@ Font Color Text (grey-black): #2C2C2C;
 */
 
 body {
+    background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #2C2C2C;
 }
+
+
+h1, h2, h3 {
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.33em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 700;
+
 
 /* insert index.html header {
     font-family: 'Rum Raisin', sans-serif;
