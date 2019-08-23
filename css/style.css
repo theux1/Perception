@@ -60,6 +60,14 @@ a:active { /* selected link */
   color: #0046FB;
 }
 
+/*classes*/
+
+.raisin {
+  font-family:'rum raisin', sans-serif;
+  font-size: 5em;
+}
+
+
 
 
 /* insert index.html header {
