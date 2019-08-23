@@ -41,6 +41,26 @@ img {
   width: 100%;
 }
 
+a {
+  color: #0046FB;
+  text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+  color: #F1A30C;
+}
+
+a:hover {
+  color: #F1A30C;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+
+a:active { /* selected link */
+  color: #0046FB;
+}
+
+
 
 /* insert index.html header {
     font-family: 'Rum Raisin', sans-serif;
