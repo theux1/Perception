@@ -63,7 +63,7 @@ a:active { /* selected link */
 
 /*classes*/
 
-/*.button {
+.button {
   display: inline-block;
   background-color: #0046FB;
   color: #ffffff !important;
@@ -79,7 +79,7 @@ a:active { /* selected link */
 .button:active {
 color: #0046FB;
 }
-*/
+
 
 .raisin {
   font-family:'rum raisin', sans-serif;
