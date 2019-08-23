@@ -63,6 +63,24 @@ a:active { /* selected link */
 
 /*classes*/
 
+/*.button {
+  display: inline-block;
+  background-color: #0046FB;
+  color: #ffffff !important;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 20px;
+}
+.button:hover {
+  color: #F1A30C;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button:active {
+color: #0046FB;
+}
+*/
+
 .raisin {
   font-family:'rum raisin', sans-serif;
   font-size: 5em;
