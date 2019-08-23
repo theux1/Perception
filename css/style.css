@@ -36,6 +36,10 @@ h3 {
   font-size: 1em;
   font-weight: 700;
 
+  img {
+  width: 100%;
+}
+
 
 /* insert index.html header {
     font-family: 'Rum Raisin', sans-serif;
