@@ -55,10 +55,11 @@ a:hover, a:focus {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-
 a:active { /* selected link */
   color: #0046FB;
 }
+
+
 
 /*classes*/
 
@@ -66,10 +67,3 @@ a:active { /* selected link */
   font-family:'rum raisin', sans-serif;
   font-size: 5em;
 }
-
-
-
-
-/* insert index.html header {
-    font-family: 'Rum Raisin', sans-serif;
-} */
