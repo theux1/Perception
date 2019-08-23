@@ -50,7 +50,7 @@ a:visited { /* visited link */
   color: #F1A30C;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #F1A30C;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
