@@ -11,7 +11,7 @@ Font Color Text (grey-black): #2C2C2C;
 body {
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
     color: #2C2C2C;
@@ -85,9 +85,9 @@ color: #0046FB;
 /*index.html headline*/
 .raisin {
   font-family:'rum raisin', sans-serif;
-  font-size: 5em;
+  font-size: 3.5em;
 }
 
 .welcome {
-  font-size: 2.5em
+  font-size: 2em;
 }
