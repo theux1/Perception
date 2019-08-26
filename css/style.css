@@ -96,3 +96,7 @@ color: #0046FB;
 }
 
 /* Layout styling */
+
+.container {
+  padding: 20px;
+}
