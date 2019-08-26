@@ -7,6 +7,9 @@ Emphasize Color (red): #F40606;
 Font Color Headings (black): #000000;
 Font Color Text (grey-black): #2C2C2C;
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
     background-color: #ffffff;
@@ -91,3 +94,5 @@ color: #0046FB;
 .welcome {
   font-size: 2em;
 }
+
+/* Layout styling */
