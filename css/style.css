@@ -41,6 +41,7 @@ h1, h2, h3 {
 h1 {
   font-size: 2.5em;
   font-weight: 400;
+  margin: 0.9em 0 0 0;
 }
 
 h2 {
@@ -106,6 +107,7 @@ color: #0046FB;
 
 .welcome {
   font-size: 2em;
+  margin: 0.2em 0 0.67em 0;
 }
 
 /* Layout styling */
@@ -163,7 +165,7 @@ nav > ul > li > a:hover {
 }
 
 .fouroffour {
-max-width: 172px; 
+max-width: 172px;
 }
 
 .container {
