@@ -120,9 +120,10 @@ nav > ul > li > a {
   max-width: 75px;
 }
 
+.row {
+     margin: 25px 0;
+     display: inline-block;
+}
+
 .container {
   padding: 20px;
-
-.row {
-    margin: 25px 0;
-  }
