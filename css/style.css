@@ -97,13 +97,13 @@ color: #0046FB;
 
 /* Layout styling */
 
+.center {
+  text-align: center;
+}
+
 .container {
   padding: 20px;
 
 .row {
     margin: 25px 0;
-  }
-
-  .center {
-    text-align: center;
   }
