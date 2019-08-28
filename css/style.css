@@ -148,8 +148,9 @@ nav > ul > li > a:hover {
 }
 
 .row {
-     margin: 25px 25px;
+     margin: auto;
      display: inline-block;
+     width: 100%;
 }
 
 .oneoffour {
@@ -165,7 +166,7 @@ nav > ul > li > a:hover {
 }
 
 .fouroffour {
-max-width: 172px;
+ max-width: 172px;
 }
 
 .container {
