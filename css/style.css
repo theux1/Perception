@@ -101,6 +101,21 @@ color: #0046FB;
   text-align: center;
 }
 
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .logo {
   max-width: 75px;
 }
