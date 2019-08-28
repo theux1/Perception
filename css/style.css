@@ -107,3 +107,7 @@ color: #0046FB;
 .row {
     margin: 25px 0;
   }
+
+.logo {
+  max-width: 250px;
+}
