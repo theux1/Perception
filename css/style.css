@@ -12,7 +12,7 @@ Font Color Text (grey-black): #2C2C2C;
 }
 
 main {
-  padding: 160px;
+  padding:160px 0 0 0;
 }
 
 header {
@@ -149,6 +149,3 @@ nav > ul > li > a:hover {
      margin: 25px 0;
      display: inline-block;
 }
-
-.container {
-  padding: 20px;
