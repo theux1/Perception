@@ -116,6 +116,15 @@ nav > ul > li > a {
   font-weight: 700;
 }
 
+nav > ul > li > a:visited {
+  color: #0046FB;
+}
+
+nav > ul > li > a:hover {
+  color: #F1A30C;
+  text-decoration: none;
+}
+
 .logo {
   max-width: 75px;
 }
