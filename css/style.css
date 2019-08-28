@@ -150,5 +150,21 @@ nav > ul > li > a:hover {
      display: inline-block;
 }
 
+.oneoffour {
+  max-width: 147px;
+}
+
+.twooffour {
+  max-width: 213px;
+}
+
+.threeoffour {
+  max-width: 113px;
+}
+
+.fouroffour {
+max-width: 172px; 
+}
+
 .container {
   padding: 20px;
