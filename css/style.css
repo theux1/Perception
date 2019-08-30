@@ -80,6 +80,7 @@ h3 {
 
 img {
   width: 100%;
+  margin: 40px 0 0 0;
 }
 
 a {
@@ -174,6 +175,7 @@ nav > ul > li > a:hover {
 
 .logo {
   max-width: 75px;
+  margin: 0;
 }
 
 .oneoffour {
@@ -211,6 +213,7 @@ nav > ul > li > a:hover {
 
 #smiley {
 max-width: 38px;
+margin: 0;
 }
 
 #steps {
