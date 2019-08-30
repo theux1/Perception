@@ -211,6 +211,9 @@ nav > ul > li > a:hover {
      display: inline-block;
      width: 100%;
    }
+.margin {
+margin: 40px 0;  
+}
 
 #smiley {
 max-width: 38px;
@@ -251,6 +254,37 @@ margin: 0;
 #net {
 max-width: 407px;
 margin: 40px auto;
+}
+
+#apple {
+  max-width: 274px;
+  margin: 0;
+}
+
+#redapple {
+  font-size: 3.5em;
+  color: #F40606;
+  text-align: center;
+  margin: 0;
+}
+
+#sokrates {
+max-width: 407px;
+float: right;
+margin: 30px 0 0 50px;
+padding: 0 0 0 0;
+}
+
+#sokrates::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+#typo {
+  float:right;
+  max-width: 407px;
+  margin: 0 0 0 50px;
 }
 
 #steps {
