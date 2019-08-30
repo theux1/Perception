@@ -147,6 +147,27 @@ color: #0046FB;
   padding: 20px;
 }
 
+.strong {
+  font-weight: 700;
+}
+
+.em {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.purple {
+  color: #454ABC;
+}
+
+.orange {
+  color: #F1A30C;
+}
+
+.fontapple {
+  color: #F40606;
+}
+
 nav > ul {
   display: inline-block;
   width: 100%;
