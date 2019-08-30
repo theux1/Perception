@@ -212,7 +212,7 @@ nav > ul > li > a:hover {
      width: 100%;
    }
 .margin {
-margin: 40px 0;  
+margin: 40px 0;
 }
 
 #smiley {
@@ -284,7 +284,7 @@ padding: 0 0 0 0;
 #typo {
   float:right;
   max-width: 407px;
-  margin: 0 0 0 50px;
+  margin: 0 0 30px 50px;
 }
 
 #steps {
