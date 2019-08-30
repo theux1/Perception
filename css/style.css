@@ -217,6 +217,42 @@ max-width: 38px;
 margin: 0;
 }
 
+#notabird {
+  float: right;
+  max-width: 396px;
+  max-height: 430px;
+  margin: 0 0 0 50px;
+  padding: 0 0 50px 0;
+  overflow: auto;
+}
+
+#youtube1 {
+  float: right;
+  max-width: 407px;
+  max-height: 160px;
+  margin: 20px 0 0 80px;
+  padding: 0;
+}
+
+#youtube2 {
+  float: right;
+  max-width: 407px;
+  max-height: 160px;
+  margin: 20px 0 0 80px;
+  padding: 0;
+}
+
+#youtube1::after, #youtube2::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+#net {
+max-width: 407px;
+margin: 40px auto;
+}
+
 #steps {
 
 }
