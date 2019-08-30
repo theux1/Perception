@@ -13,6 +13,8 @@ Font Color Text (grey-black): #2C2C2C;
 
 main {
   padding:160px 0 0 0;
+  max-width: 854px;
+  margin: auto;
 }
 
 header {
@@ -33,6 +35,17 @@ body {
     color: #2C2C2C;
 }
 
+footer {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 854px;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
 
 h1, h2, h3 {
   line-height: 1.4;
@@ -47,6 +60,17 @@ h1 {
 h2 {
   font-size: 1.33em;
   font-weight: 500;
+}
+
+#legend {
+  text-align: center;
+margin: 5em 0;
+font-weight: 500;
+}
+
+ol {
+list-style-position: inside;
+padding: 0;
 }
 
 h3 {
@@ -116,6 +140,10 @@ color: #0046FB;
   text-align: center;
 }
 
+.container {
+  padding: 20px;
+}
+
 nav > ul {
   display: inline-block;
   width: 100%;
@@ -147,12 +175,6 @@ nav > ul > li > a:hover {
   max-width: 75px;
 }
 
-.row {
-     margin: auto;
-     display: inline-block;
-     width: 100%;
-}
-
 .oneoffour {
   max-width: 147px;
 }
@@ -169,5 +191,23 @@ nav > ul > li > a:hover {
  max-width: 172px;
 }
 
-.container {
-  padding: 20px;
+[class*="col-"] {
+  padding: 25px 20px;
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+     margin: auto;
+     display: inline-block;
+     width: 100%;
+   }
+
+#steps {
+
+}
