@@ -86,6 +86,7 @@ img {
 a {
   color: #0046FB;
   text-decoration: none; /* No underlining */
+  font-weight: 500;
 }
 
 a:visited { /* visited link */
