@@ -13,8 +13,10 @@
 <body>
   <header>
       <div class="container">
-            <img class="logo" src="img/header-footer/Logos.svg" alt="Logo Christian Eigl">
-          <nav>
+          <img class="logo" src="img/header-footer/Logos.svg" alt="Logo Christian Eigl">
+          <nav id="myTopnav" class="topnav">
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
             <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="perception.html">Perception</a></li>
@@ -226,6 +228,16 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/d8d24a85b0.js"></script>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
 </body>
 

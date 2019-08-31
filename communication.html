@@ -14,7 +14,9 @@
   <header>
       <div class="container">
           <img class="logo" src="img/header-footer/Logos.svg" alt="Logo Christian Eigl">
-          <nav>
+          <nav id="myTopnav" class="topnav">
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
             <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="perception.html">Perception</a></li>
@@ -233,6 +235,16 @@
     {
      document.getElementById("theCurtain").src="img/Communication/Mobile/curtain-open-854x4399.svg";
     }
+  </script>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
   </script>
 
 </body>
