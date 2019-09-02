@@ -253,17 +253,14 @@ margin: 0;
 
 #notabird {
   max-width: 396px;
-  max-height: 430px;
 }
 
 #youtube1 {
   max-width: 407px;
-  max-height: 160px;
 }
 
 #youtube2 {
   max-width: 407px;
-  max-height: 160px;
 }
 
 #youtube1::after, #youtube2::after {
@@ -279,7 +276,6 @@ margin: 40px auto;
 
 #apple {
   max-width: 274px;
-  margin: 0;
 }
 
 #redapple {
