@@ -111,11 +111,15 @@ nav > ul > li > a:hover {
   max-width: 75px;
 }
 
+.margin {
+margin: 40px 0 0 0;
+}
+
 /* Containers & columns
 ====================================*/
 
 .container {
-  padding: 20px;
+  padding: 0 20px;
 }
 
 [class*="col-"] {
@@ -233,10 +237,8 @@ color: #0046FB;
  max-width: 172px;
 }
 
-
-.margin {
-margin: 40px 0 0 0;
-}
+/* ids
+=================================*/
 
 #legend {
   text-align: center;
