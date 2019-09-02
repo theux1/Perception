@@ -14,9 +14,7 @@
   <header>
       <div class="container">
           <img class="logo" src="img/header-footer/Logos.svg" alt="Logo Christian Eigl">
-          <nav id="myTopnav" class="topnav">
-            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+          <nav>
             <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="perception.html">Perception</a></li>
@@ -44,7 +42,7 @@
           background. It constantly scans for figures on a background that seem most relevant to us.
         </p>
         <div>
-          <div>
+          <div class="margin">
             <picture>
               <source srcset="img/Perception/Mobile/Box-percept-320x160.png" media="(max-width:767px)">
               <img src="img/Perception/Desktop/Box-percept-407x186.png" alt="red circle around streets light">
@@ -64,7 +62,7 @@
     </div>
 
     <div>
-      <div>
+      <div class="margin">
         <img src="img/Perception/Mobile/Box-0-320x160.svg" alt="Box with no dot inside of it">
         <p>
           Do you see the dot? It is there. Promised. If you click on it you will win a pot of gold that is waiting at the
@@ -76,7 +74,7 @@
     </div>
 
     <div>
-      <div>
+      <div class="margin">
         <img src="img/Perception/Mobile/Box-1-320x160.svg" alt="Box with one dot inside of it">
         <p>
           This dot may be more visible to you, because it has a clear <span class="strong">contrast</span> in colour and therefore has a
@@ -87,7 +85,7 @@
     </div>
 
     <div>
-      <div>
+      <div class="margin">
         <img src="img/Perception/Mobile/Box-5-320x160.svg" alt="Box with five dots inside of it" />
         <p>
           Before you get the wrong idea, this is not a test. Our short term memory defines the amount of elements
@@ -98,7 +96,7 @@
     </div>
 
     <div>
-      <div>
+      <div class="margin">
         <img src="img/Perception/Mobile/Box-6-320x160.svg" alt="Box with six dots inside of it">
         <p>
           Have you been able to tell right away or did you have to count? It seems like we can easily grasp 5
@@ -109,7 +107,7 @@
     </div>
 
     <div>
-      <div>
+      <div class="margin">
         <img src="img/Perception/Mobile/Box-6-dice-320x160.svg" alt="Box with six ordered dots inside of it">
         <p>
           Now the number is quicker to scan. Why? Our mind <span class="strong">groups</span> together two rows of threes. Also we have
@@ -139,20 +137,24 @@
           of introduction, 8 sentences main section, 4 sentences conlusion, as boringly but efficiantly illustrated
           below.
         </p>
+        <div class="margin">
         <picture>
           <source srcset="img/Perception/Mobile/message-empty-320x98.png" media="(max-width:767px)">
           <img src="img/Perception/Desktop/message-empty-854x120.png" alt="hierarchic table">
         </picture>
+      </div>
         <p>
           To understand the effect, you have to know the following: Our brain is always wired to seek for orientation.
-          The less ambiguous the information is, the better for recall.<br>
+          The less ambiguous the information is, the better for recall.<br><br>
           <span class="strong">Primacy</span>: The first sentence is not only the first of all other sentences, but also the first of the introduction
           and the first of the whole message. It is the first on all levels.
         </p>
+        <div class="margin">
         <picture>
           <source srcset="img/Perception/Mobile/message-border-320x98.png" media="(max-width:767px)">
           <img src="img/Perception/Desktop/message-edge-854x120.png" alt="hierarchic table with markers">
         </picture>
+      </div>
         <p>
           Therefore it shares 3 edges <span class="purple">(purple)</span>. This is easy to process for our mind, due to the unambiguaty of the
           location of information. The 5th sentence, however, has only 2 edges <span class="orange">(orange)</span> and has less properties for
@@ -210,16 +212,7 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/d8d24a85b0.js"></script>
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-  </script>
+
 
 </body>
 

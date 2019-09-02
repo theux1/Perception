@@ -14,9 +14,7 @@
   <header>
       <div class="container">
           <img class="logo" src="img/header-footer/Logos.svg" alt="Logo Christian Eigl">
-          <nav id="myTopnav" class="topnav">
-            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
+          <nav>
             <ul class="nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="perception.html">Perception</a></li>
@@ -46,7 +44,7 @@
           as they might think. Also, there are more levels of communication than the simple factual one. This is the
           reason why some machines are still struggling with it. And it keeps happening.
         </p>
-        <div>
+        <div class="margin">
           <picture>
             <source srcset="img/Communication/Mobile/Autocorrect-320x97.png" media="(max-width:767px)">
             <img src="img/Communication/Desktop/Autocorrect.854x260.png" alt="joke about autocorrect">
@@ -57,11 +55,10 @@
     </div>
 
     <div>
-      <br>
       <div>
         <h2>What are terms?</h2>
         <p>Imagine, you see an unknown object. For example something like this:</p>
-        <div>
+        <div class="margin">
             <img id="theCurtain" src="img/Communication/Mobile/curtain-closed-854x399.svg" alt="closed theater curtain will open and show apple behind it">
         </div>
         <br>
@@ -99,7 +96,7 @@
       <div>
         <h2>Experiences, situation and expectation</h2>
         <p>What do we mean by saying, that someone spilled the beans?</p>
-        <div>
+        <div class="margin">
           <picture>
             <source srcset="img/Communication/Mobile/spilling-beans-320x117.png" media="(max-width:767px)">
             <img src="img/Communication/Desktop/spilling-beans-854x288.png" alt="spilled beans next to a person whispering into another's ear">
@@ -112,14 +109,14 @@
           developed.
         </p>
         <div>
-          <div id="sokrates::after">
+          <div class="margin" id="sokrates::after">
             <picture>
               <source srcset="img/Communication/Mobile/sokrates-320x221.png" media="(max-width:767px)">
               <img id="sokrates" src="img/Communication/Desktop/Sokrates-407x230.png" alt="sokrates thinking about something odd">
             </picture>
           </div>
           <div>
-            <p><br>Actually, this is a problem well known to linguistic
+            <p>Actually, this is a problem well known to linguistic
               philosophy. More recently authors like Quine and
               Kripke have dedicated themselves to the issue of
               ‘reference’ of ideoms and terms. Each person has
@@ -135,11 +132,10 @@
 
       <div>
         <br>
-        <br>
         <div>
           <h2>Semantic knowledge</h2>
           <p>A common example is the concept of ‘money’. Two people may think of ‘money’ differently.</p>
-          <div>
+          <div class="margin">
             <picture>
               <source srcset="img/Communication/Mobile/money-300x150.png" media="(max-width:767px)">
               <img src="img/Communication/Desktop/money-854x235.png" alt="term tree about concepts of money">
@@ -184,8 +180,7 @@
           </div>
         </div>
 
-        <div class="margin">
-          <br>
+        <div>
           <br>
           <div>
             <h2>All good things have to come to an end</h2>
@@ -235,16 +230,6 @@
     {
      document.getElementById("theCurtain").src="img/Communication/Mobile/curtain-open-854x4399.svg";
     }
-  </script>
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
   </script>
 
 </body>
