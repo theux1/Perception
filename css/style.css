@@ -310,6 +310,10 @@ Medium devices (640px and larger)
 
 @media only screen and (min-width: 640px) {
 
+  body {
+      font-size: 18px;
+  }
+
   nav {
     width: 90%;
     padding-top: 10px;
@@ -328,21 +332,20 @@ Medium devices (640px and larger)
 
   main {
     padding:100px 0 0 0;
-    /*max-width: 854px;
-    margin: auto;*/
+    max-width: 854px;
+    margin: auto;
 }
 
+}
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 
 @media only screen and (min-width: 1024px) {
 
+  main {
+    padding:100px 0 0 0;
+    /*max-width: 854px;
+    margin: auto;*/
 }
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-
-@media only screen and (min-width: 1440px) {
-
 }
