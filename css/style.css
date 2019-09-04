@@ -332,8 +332,6 @@ Medium devices (640px and larger)
 
   main {
     padding:100px 0 0 0;
-    max-width: 854px;
-    margin: auto;
 }
 
 [class*="col-"] {
@@ -351,7 +349,6 @@ Medium devices (640px and larger)
     margin: 0.2em 0 3.5em 0;
 }
 
-}
 
 }
 /* ==============================
@@ -359,14 +356,13 @@ Large devices (1024px or larger)
 ================================= */
 
 @media only screen and (min-width: 854px) {
-
   [class*="col-"] {
     margin: auto;
   }
 
   main {
     padding:100px 0 0 0;
-    /*max-width: 854px;
-    margin: auto;*/
+    max-width: 854px;
+    margin: auto;
 }
 }
