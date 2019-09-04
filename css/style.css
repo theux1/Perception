@@ -336,12 +336,33 @@ Medium devices (640px and larger)
     margin: auto;
 }
 
+[class*="col-"] {
+  display: inline-block;
+  margin: 0 0 0 3.5em;
+}
+
+@media only screen and (min-width: 854px) {
+  [class*="col-"] {
+    margin: auto;
+  }
+}
+
+.welcome {
+    margin: 0.2em 0 3.5em 0;
+}
+
+}
+
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 854px) {
+
+  [class*="col-"] {
+    margin: auto;
+  }
 
   main {
     padding:100px 0 0 0;
