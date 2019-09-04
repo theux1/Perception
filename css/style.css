@@ -75,6 +75,7 @@ ul, ol {
 .fontapple {
   color: #F40606;
 }
+
 nav {
   float: right;
   }
@@ -85,6 +86,7 @@ nav {
   list-style-type: none;
   padding: 0;
   text-align: right;
+  margin-top: 0;
 }
 
 nav > ul > li {
@@ -260,13 +262,6 @@ margin: 0;
   max-width: 396px;
 }
 
-#youtube1 {
-  max-width: 407px;
-}
-
-#youtube2 {
-  max-width: 407px;
-}
 
 #youtube1::after, #youtube2::after {
   content: "";
@@ -316,7 +311,7 @@ Medium devices (640px and larger)
 
   nav {
     width: 90%;
-    padding-top: 10px;
+    padding-top: 25px;
   }
 
   nav > ul {
@@ -349,10 +344,13 @@ Medium devices (640px and larger)
     margin: 0.2em 0 3.5em 0;
 }
 
+nav > ul > li > a {
+  font-size: 14px;
+}
 
 }
 /* ==============================
-Large devices (1024px or larger)
+Large devices (854px or larger)
 ================================= */
 
 @media only screen and (min-width: 854px) {
@@ -365,4 +363,47 @@ Large devices (1024px or larger)
     max-width: 854px;
     margin: auto;
 }
+
+nav {
+  width: 85%;
+  padding-top: 50px;
+}
+
+nav > ul > li > a {
+  font-size: 18px;
+}
+
+#youtube1 {
+  max-width: 407px;
+}
+
+#youtube2 {
+  max-width: 407px;
+}
+
+.logo {
+  max-width: 100px;
+  margin: 20px 0;
+}
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  nav {
+    width: 80%;
+    padding-top: 60px;
+  }
+
+  nav > ul > li > a {
+    font-size: 20px;
+  }
+
+
+  .logo {
+    max-width: 120px;
+    margin: 20px 0;
+  }
 }
