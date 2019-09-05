@@ -202,12 +202,15 @@ a:active { /* selected link */
   width: 200px;
   border-radius: 20px;
   border-style: none;
+  transition-duration: 0.2s;
+  transition-property: opacity;
 }
 
 .button:hover {
   color: #F1A30C;
   opacity: 0.8;
   text-decoration: none;
+  opacity: 0.8;
 }
 
 .button:active {
