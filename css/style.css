@@ -210,7 +210,6 @@ a:active { /* selected link */
   color: #F1A30C;
   opacity: 0.8;
   text-decoration: none;
-  opacity: 0.8;
 }
 
 .button:active {
