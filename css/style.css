@@ -341,8 +341,14 @@ Medium devices (640px and larger)
   margin: 0 0 0 1.5em;
 }
 
-.overflow {
-  overflow: auto;
+.overflow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.padding {
+  padding-top: 20px;
 }
 
 .welcome {
@@ -387,10 +393,6 @@ nav > ul > li > a {
 .logo {
   max-width: 100px;
   margin: 20px 0;
-}
-
-.padding {
-  padding-top: 5px;
 }
 
 #youtube1::after, #youtube2::after {
