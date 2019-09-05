@@ -128,7 +128,7 @@ margin: 40px 0 0 0;
   padding: 0 20px;
 }
 
-[class*="col-"] {
+[class*="col-s"] {
   padding: 25px 20px;
   float: left;
   margin: 0 0 0 50px;
@@ -287,6 +287,7 @@ margin: 40px auto;
 
 #sokrates {
 max-width: 407px;
+text-align: center;
 }
 
 #sokrates::after {
@@ -334,10 +335,13 @@ Medium devices (640px and larger)
   margin: 0 0 0 3.5em;
 }
 
-@media only screen and (min-width: 854px) {
-  [class*="col-"] {
-    margin: auto;
-  }
+.col-md-6 {
+  width: 50%;
+  float: right;
+  padding: 10px 0 0 0;
+  margin: 0 0 0 1.5em;
+}
+
 }
 
 .welcome {
@@ -350,13 +354,14 @@ nav > ul > li > a {
 
 }
 /* ==============================
-Large devices (854px or larger)
+Large devices (854px or larger), because of the 854px limitation of the original design
 ================================= */
 
 @media only screen and (min-width: 854px) {
   [class*="col-"] {
     margin: auto;
   }
+
 
   main {
     padding:100px 0 0 0;
@@ -373,17 +378,24 @@ nav > ul > li > a {
   font-size: 18px;
 }
 
+.logo {
+  max-width: 100px;
+  margin: 20px 0;
+}
+
+.col-lg-6 {
+  width: 50%;
+  float: right;
+  padding: 10px 0 0 0;
+  margin: 0 0 0 1.5em;
+}
+
 #youtube1 {
   max-width: 407px;
 }
 
 #youtube2 {
   max-width: 407px;
-}
-
-.logo {
-  max-width: 100px;
-  margin: 20px 0;
 }
 
 }
