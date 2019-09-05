@@ -121,6 +121,7 @@ nav > ul > li > a:hover {
 margin: 40px 0 0 0;
 }
 
+
 /* Containers & columns
 ====================================*/
 
@@ -221,6 +222,7 @@ color: #0046FB;
   font-family:'rum raisin', sans-serif;
   font-size: 4em;
     margin: 0.9em 0 0 0;
+    animation: 30s color-change infinite linear;
 }
 
 .welcome {
@@ -244,6 +246,27 @@ color: #0046FB;
  max-width: 172px;
 }
 
+@keyframes color-change {
+  0% {color: #000000;}
+  25% {color: #454ABC;}
+  50% {color: #000000;}
+  75% {color: #F1A30C;}
+  100% {color: #000000;}
+}
+
+.dot1 {
+    animation: 1s color-change infinite linear;
+  }
+
+.dot2 {
+    animation: 1s color-change infinite linear;
+    animation-delay: 0.4s;
+  }
+  
+.dot3 {
+    animation: 1s color-change infinite linear;
+    animation-delay: 0.7s;
+}
 
 /* ids
 =================================*/
@@ -296,6 +319,49 @@ text-align: center;
 
 #sparrow {
   max-width: 500px;
+}
+/* Animation
+==========================*/
+
+.oncetoomany {
+   max-width: 854px;
+}
+.oncetoomany::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+
+.oncetoomany img {
+
+}
+
+.jungle {
+max-width: 854px;
+}
+
+.tiger {
+width: 170px;
+}
+
+.bush {
+max-width: 347px;
+}
+
+.coming {
+max-width: 208px;
+}
+
+.going {
+max-width: 208px;
+}
+
+.bestgone {
+max-width: 192px;
+}
+
+.hehe {
+max-width: 192px;
 }
 
 /* ==============================
