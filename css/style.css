@@ -202,8 +202,7 @@ a:active { /* selected link */
   width: 200px;
   border-radius: 20px;
   border-style: none;
-  transition-duration: 0.2s;
-  transition-property: opacity;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
