@@ -144,7 +144,7 @@ nav > ul > li > a:hover {
   margin: 20px 0;
 }
 
-.margin {
+.mt40 {
 margin: 40px 0 0 0;
 }
 
@@ -191,6 +191,7 @@ h1 {
 h2 {
   font-size: 1.33em;
   font-weight: 500;
+  margin-top: 20px;
 }
 
 h3 {
