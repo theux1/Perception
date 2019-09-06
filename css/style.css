@@ -42,6 +42,33 @@ footer {
   border-top: 1px solid rgba(44, 44, 44, 0.2);
 }
 
+footer .fab {
+  font-size: 2em;
+  width: 50%;
+}
+
+.social {
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+}
+
+ul.social > li {
+    width: 46%;
+    margin: 5px 2%;
+}
+
+.floatr {
+  float: right;
+  text-align: left;
+}
+
+.floatl {
+  text-align: right;
+  float: left;
+}
+
 img {
   width: 100%;
 }
@@ -97,7 +124,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 0;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -262,7 +289,7 @@ color: #0046FB;
     animation: 1s color-change infinite linear;
     animation-delay: 0.4s;
   }
-  
+
 .dot3 {
     animation: 1s color-change infinite linear;
     animation-delay: 0.7s;
