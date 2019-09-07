@@ -389,6 +389,12 @@ right: 0;
 width: 24%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 0;
 left: 0;
+animation: coming 3s;
+}
+
+.waiting {
+  animation: waiting 4s;
+  animation-delay: 4s;
 }
 
 .going {
@@ -407,6 +413,16 @@ right: 25%;
 width: 22%; /* img aspect ratio: width of original tiger: width of original background*/
 top: 22%;
 right: 16%;
+}
+
+@keyframes coming {
+  from {left: 0;}
+  to {left: 40%;}
+}
+
+@keyframes waiting {
+  bottom: 0;
+  right: 40%;
 }
 
 /* ==============================
