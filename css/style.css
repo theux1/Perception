@@ -392,7 +392,7 @@ animation: disappear 0.1s 2.8s forwards;
 width: 24%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 0;
 left: 0;
-animation: coming 3s, waiting 20s 3s, disappear 0.1s 6s forwards;
+animation: coming 3s, waiting 10s 3s, disappear 0.1s 5.5s forwards;
 }
 
 .going {
@@ -400,7 +400,7 @@ width: 24%; /* img aspect ratio: width of original tiger: width of original back
 bottom: 0;
 right: 40%;
 opacity: 0;
-animation: appear 0.1s 6s forwards, going 1s 6.3s forwards;
+animation: appear 0.1s 5.5s forwards, going 1s 5.8s forwards, hurry 0.1s 6.5s forwards;
 }
 
 .bestgone {
@@ -408,7 +408,7 @@ width: 22%; /* img aspect ratio: width of original tiger: width of original back
 top: 8%;
 right: 25%;
 opacity: 0;
-animation: appear 0.1s 4s forwards, disappear 0.1s 6s forwards;
+animation: appear 0.1s 4s forwards, disappear 0.1s 5.5s forwards;
 }
 
 .hehe {
@@ -416,7 +416,7 @@ width: 22%; /* img aspect ratio: width of original tiger: width of original back
 top: 18%;
 right: 18%;
 opacity: 0;
-animation: appear 0.1s 8s forwards;
+animation: appear 0.1s 7s forwards;
 }
 
 @keyframes coming {
@@ -448,6 +448,12 @@ animation: appear 0.1s 8s forwards;
      from {left: 40%;}
         to {left: -100%;}
     }
+
+    @keyframes hurry {
+     from {transform: rotate(0deg);}
+        to {transform: rotate(10deg);}
+    }
+
 
 /* ==============================
 Medium devices (640px and larger)
