@@ -378,21 +378,21 @@ position: absolute;
 width: 20%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 2%;
 right: 2%;
-animation: enlarge 40ms 2.75s forwards;
+animation: enlarge 40ms 2.75s forwards paused;
 }
 
 .bush {
 width: 41%; /* img aspect ratio: width of original bush: width of original background*/
 bottom: 0;
 right: 0;
-animation: disappear 0.1s 2.8s forwards;
+animation: disappear 0.1s 2.8s forwards paused;
 }
 
-.coming {
+#coming {
 width: 24%; /* img aspect ratio: width of original coming: width of original background*/
 bottom: 0;
 left: 0;
-animation: coming 3s, waiting 10s 3s, disappear 0.1s 5.5s forwards; /* Control the lengh of the animation by waiting duration (waiting 'x' 3s)*/
+animation: coming 3s paused, waiting 10s 3s paused, disappear 0.1s 5.5s forwards paused; /* Control the lengh of the animation by waiting duration (waiting 'x' 3s)*/
 }
 
 .going {
@@ -400,7 +400,7 @@ width: 24%; /* img aspect ratio: width of original going: width of original back
 bottom: 0;
 right: 40%;
 opacity: 0;
-animation: appear 0.1s 5.5s forwards, going 1s 5.8s forwards, hurry 0.1s 6.5s forwards;
+animation: appear 0.1s 5.5s forwards paused, going 1s 5.8s forwards paused, hurry 0.1s 6.5s forwards paused;
 }
 
 .bestgone {
@@ -408,7 +408,7 @@ width: 22%; /* img aspect ratio: width of original bestgone: width of original b
 top: 8%;
 right: 25%;
 opacity: 0;
-animation: appear 0.1s 4s forwards, disappear 0.1s 5.5s forwards;
+animation: appear 0.1s 4s forwards paused, disappear 0.1s 5.5s forwards paused;
 }
 
 .hehe {
@@ -416,7 +416,7 @@ width: 22%; /* img aspect ratio: width of original hehe: width of original backg
 top: 18%;
 right: 18%;
 opacity: 0;
-animation: appear 0.1s 7s forwards;
+animation: appear 0.1s 7s forwards paused;
 }
 
 @keyframes coming {

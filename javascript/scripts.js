@@ -4,3 +4,7 @@ function pictureChange()
  }
 
 console.log("Are you ready for some perceptional secrets?")
+
+function startAnimation() {
+    document.getElementById("coming").style.coming = "running";
+}
