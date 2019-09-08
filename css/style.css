@@ -349,6 +349,7 @@ text-align: center;
 #sparrow {
   max-width: 500px;
 }
+
 /* Animation
 ==========================*/
 
@@ -377,53 +378,76 @@ position: absolute;
 width: 20%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 2%;
 right: 2%;
+animation: enlarge 40ms 2.75s forwards;
 }
 
 .bush {
 width: 41%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 0;
 right: 0;
+animation: disappear 0.1s 2.8s forwards;
 }
 
 .coming {
 width: 24%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 0;
 left: 0;
-animation: coming 3s;
-}
-
-.waiting {
-  animation: waiting 4s;
-  animation-delay: 4s;
+animation: coming 3s, waiting 20s 3s, disappear 0.1s 6s forwards;
 }
 
 .going {
 width: 24%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 0;
 right: 40%;
+opacity: 0;
+animation: appear 0.1s 6s forwards, going 1s 6.3s forwards;
 }
 
 .bestgone {
 width: 22%; /* img aspect ratio: width of original tiger: width of original background*/
 top: 8%;
 right: 25%;
+opacity: 0;
+animation: appear 0.1s 4s forwards, disappear 0.1s 6s forwards;
 }
 
 .hehe {
 width: 22%; /* img aspect ratio: width of original tiger: width of original background*/
-top: 22%;
-right: 16%;
+top: 18%;
+right: 18%;
+opacity: 0;
+animation: appear 0.1s 8s forwards;
 }
 
 @keyframes coming {
-  from {left: 0;}
-  to {left: 40%;}
+ from {left: 0;}
+    to {left: 40%;}
 }
 
 @keyframes waiting {
-  bottom: 0;
-  right: 40%;
-}
+  from {left: 40%;}
+     to {left: 40%;}
+ }
+
+ @keyframes disappear {
+   from {opacity: 1;}
+      to {opacity: 0;}
+  }
+
+  @keyframes appear {
+    from {opacity: 0;}
+       to {opacity: 1;}
+   }
+
+   @keyframes enlarge {
+     from {width: 20%;}
+        to {width: 25%;}
+    }
+
+    @keyframes going {
+     from {left: 40%;}
+        to {left: -100%;}
+    }
 
 /* ==============================
 Medium devices (640px and larger)
