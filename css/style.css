@@ -435,13 +435,8 @@ Otherwise, the classes will override the class with their animation properties*/
   position: absolute;
 }
 
-	&.active {
-		transform: scale(1);
-		opacity: 1;
-	}
 
 	.reloadbutton {
-		transition: transform 500ms;
 		height: 100%;
 		width: 100%;
 		}
