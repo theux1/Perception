@@ -35,3 +35,13 @@ var element = document.getElementById("anigoing").reset();
   var element = document.getElementById("anihehe").reset();
 }
 */
+
+
+// Vars
+var reloadButton  = document.querySelector( '.reload' );
+var reloadSvg     = document.querySelector( 'svg' );
+var reloadEnabled = true;
+var rotation      = 0;
+
+// Events
+reloadButton.addEventListener('click', function() { reloadClick() });
