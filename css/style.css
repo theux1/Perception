@@ -421,6 +421,35 @@ animation-play-state: paused;
 /* the .paused class needs to be last in line to the other anomation classes.
 Otherwise, the classes will override the class with their animation properties*/
 
+.reload {
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+	border-radius: 100%;
+	background: #0046FB;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	top: 4%;
+	left: 2%;
+  position: absolute;
+}
+
+	&.active {
+		transform: scale(1);
+		opacity: 1;
+	}
+
+	.reloadbutton {
+		transition: transform 500ms;
+		height: 100%;
+		width: 100%;
+		}
+
+    .svgpath {
+      fill: #ffffff;
+    }
+
 @keyframes coming {
  from {left: 0;}
     to {left: 40%;}
@@ -456,6 +485,17 @@ Otherwise, the classes will override the class with their animation properties*/
         to {transform: rotate(10deg);}
     }
 
+
+/* ==============================
+Medium devices (500px and larger)
+================================= */
+
+@media only screen and (min-width: 500px) {
+.reload {
+  height: 11.93317%;
+	width: 5.85480%;
+ }
+}
 
 /* ==============================
 Medium devices (640px and larger)
