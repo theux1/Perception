@@ -16,6 +16,8 @@ element.classList.remove("paused");
 element.classList.remove("paused");
   var element = document.getElementById("anibestgone");
 element.classList.remove("paused");
+var element = document.getElementById("anigoing");
+element.classList.remove("paused");
   var element = document.getElementById("anihehe");
 element.classList.remove("paused");
 }

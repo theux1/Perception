@@ -414,11 +414,13 @@ right: 18%;
 opacity: 0;
 animation: appear 0.1s 7s forwards;
 }
+
 .paused {
 animation-play-state: paused;
 }
 /* the .paused class needs to be last in line to the other anomation classes.
 Otherwise, the classes will override the class with their animation properties*/
+
 @keyframes coming {
  from {left: 0;}
     to {left: 40%;}
