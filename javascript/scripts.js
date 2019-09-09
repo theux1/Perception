@@ -6,6 +6,8 @@ function pictureChange()
 console.log("Are you ready for some perceptional secrets?")
 
 function startAnimation() {
+  /* the idea is to set a class .paused to freeze the animation when the site renders right away,
+  then remove the class via JS, the animation will then continue*/
   var element = document.getElementById("anitiger");
 element.classList.remove("paused");
   var element = document.getElementById("anibush");
