@@ -388,7 +388,7 @@ animation: disappear 0.1s 2.8s forwards;
 width: 24%; /* img aspect ratio: width of original coming: width of original background*/
 bottom: 0;
 left: 0;
-animation: coming 3s, waiting 10s 3s, disappear 0.1s 5.5s forwards; /* Control the lengh of the animation by waiting duration (waiting 'x' 3s)*/
+animation: coming 3s, waiting 12s 3s, disappear 0.1s 5.5s forwards; /* Control the lengh of the animation by waiting duration (waiting 'x' 3s)*/
 }
 
 .going {
