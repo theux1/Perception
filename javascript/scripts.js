@@ -6,5 +6,14 @@ function pictureChange()
 console.log("Are you ready for some perceptional secrets?")
 
 function startAnimation() {
-    document.getElementById("coming").style.coming = "running";
+  var element = document.getElementById("anitiger");
+element.classList.remove("paused");
+  var element = document.getElementById("anibush");
+element.classList.remove("paused");
+  var element = document.getElementById("anicoming");
+element.classList.remove("paused");
+  var element = document.getElementById("anibestgone");
+element.classList.remove("paused");
+  var element = document.getElementById("anihehe");
+element.classList.remove("paused");
 }
