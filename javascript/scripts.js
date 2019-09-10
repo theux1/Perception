@@ -39,9 +39,24 @@ var element = document.getElementById("anigoing").reset();
 
 // Vars
 var reloadButton  = document.querySelector( '.reload' );
-var reloadSvg     = document.querySelector( 'svg' );
+var reloadSvg     = document.querySelector( '.reloadbutton' );
 var reloadEnabled = true;
 var rotation      = 0;
 
 // Events
 reloadButton.addEventListener('click', function() { reloadClick() });
+
+// Functions
+function reloadClick() {
+
+  reloadEnabled = false;
+  rotation -= 180;
+
+reloadSvg.style.webkitTransform = 'translateZ(0px) rotateZ( ' + rotation + 'deg )';
+reloadSvg.style.MozTransform  = 'translateZ(0px) rotateZ( ' + rotation + 'deg )';
+reloadSvg.style.transform  = 'translateZ(0px) rotateZ( ' + rotation + 'deg )';
+}
+// Show button.
+setTimeout(function() {
+  reloadButton.classList.add('active');
+}, 1);
