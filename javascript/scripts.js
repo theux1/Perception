@@ -23,30 +23,16 @@ function startAnimation() {
   element.classList.remove("paused");
 }
 
-/* Will just reset the paused state; not the css animation
-
-function resetAnimation() {
-
-  var element = document.getElementById("anitiger").reset();
-  var element = document.getElementById("anibush").reset();
-  var element = document.getElementById("anicoming").reset();
-  var element = document.getElementById("anibestgone").reset();
-var element = document.getElementById("anigoing").reset();
-  var element = document.getElementById("anihehe").reset();
-}
-*/
-
-
-// Vars
+// reset svg var
 var reloadButton  = document.querySelector( '.reload' );
-var reloadSvg     = document.querySelector( '.reloadbutton' );
+var reloadSvg     = document.querySelector( '#reloadbutton' );
 var reloadEnabled = true;
 var rotation      = 0;
 
-// Events
+// reset svg Events
 reloadButton.addEventListener('click', function() { reloadClick() });
 
-// Functions
+// reset svg Functions
 function reloadClick() {
 
   reloadEnabled = false;
@@ -56,7 +42,7 @@ reloadSvg.style.webkitTransform = 'translateZ(0px) rotateZ( ' + rotation + 'deg 
 reloadSvg.style.MozTransform  = 'translateZ(0px) rotateZ( ' + rotation + 'deg )';
 reloadSvg.style.transform  = 'translateZ(0px) rotateZ( ' + rotation + 'deg )';
 }
-// Show button.
+// Show reset svg
 setTimeout(function() {
   reloadButton.classList.add('active');
 }, 1);

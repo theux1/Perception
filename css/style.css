@@ -439,7 +439,7 @@ Otherwise, the classes will override the class with their animation properties*/
 }
 
 
-	.reloadbutton {
+	#reloadbutton {
     transition: transform 500ms cubic-bezier(.85,-0.48,.26,.67);
 		height: 100%;
 		width: 100%;
