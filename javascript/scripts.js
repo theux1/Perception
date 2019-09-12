@@ -8,9 +8,24 @@ function pictureChange() {
 function closeCurtain() {
   document.getElementById("thecurtain").src = "img/Communication/Mobile/curtain-closed-854x399.svg";
 }
+// adding a hamburger menu
+function menuToggle() {
+  var x = document.getElementById('myNavtoggle');
 
+  if (x.className === 'navtoggle') {
+    x.className += ' responsive';
+  }
+
+  else {
+    x.className = 'navtoggle';
+  }
+}
+
+// Please ignore it! Just some messing around
 console.log("Are you ready for some perceptional secrets?")
 
+
+// Starting the animation
 function startAnimation() {
   /* the idea is to set a class .paused to freeze the animation when the site renders right away,
   then remove the class via JS, the animation will then continue*/

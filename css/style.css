@@ -23,7 +23,7 @@ body {
 }
 
 main {
-  padding:160px 0 0 0;
+  padding:80px 0 0 0;
   /*max-width: 854px;
   margin: auto;*/
 }
@@ -104,12 +104,7 @@ ul, ol {
   color: #F40606;
 }
 
-nav {
-  float: right;
-  }
-
   nav > ul {
-  display: inline-block;
   width: 100%;
   list-style-type: none;
   padding: 0;
@@ -120,7 +115,6 @@ nav {
 nav > ul > li {
   width: 48%;
   margin: 5px 1%;
-  float:left;
   text-align: center;
 }
 
@@ -138,6 +132,41 @@ nav > ul > li > a:visited {
 nav > ul > li > a:hover {
   color: #F1A30C;
   text-decoration: none;
+}
+
+.navtoggle {
+    line-height: 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0px;
+  top: 26px;
+  font-size: 1.8em;
+  color: #454ABC;
+}
+
+.navtoggle.responsive nav {
+  width: 50%;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 19px 0 12px 0;
+  border-top: 1px solid #2C2C2C;
+  width: 200%;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 .logo {
@@ -498,6 +527,11 @@ Medium devices (500px and larger)
   height: 11.93317%;
 	width: 5.85480%;
  }
+
+ .welcome {
+     margin: 0.2em 0 2em 0;
+ }
+
 }
 
 /* ==============================
@@ -510,26 +544,36 @@ Medium devices (640px and larger)
       font-size: 18px;
   }
 
+  main {
+    padding:100px 0 0 0;
+      max-width: 854px;
+      margin: auto;
+  }
+
   nav {
     width: 90%;
-    padding-top: 25px;
+    padding-top: 2em;
+    float: right;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   nav > ul {
   float: right;
+  display: inline-block;
 }
 
   nav > ul > li {
     display: inline-block;
     width: auto;
     margin: 5px 1%;
-    float:none;
-  }
-
-  main {
-    padding:100px 0 0 0;
-      max-width: 854px;
-      margin: auto;
+    float: none;
   }
 
 [class*="col-"] {
@@ -573,6 +617,12 @@ Large devices (854px or larger), because of the 854px limitation of the original
 
 @media only screen and (min-width: 854px) {
 
+  main {
+    padding:150px 0 0 0;
+      max-width: 854px;
+      margin: auto;
+  }
+
   [class*="col-"] {
     margin: auto;
   }
@@ -586,7 +636,7 @@ Large devices (854px or larger), because of the 854px limitation of the original
 
 nav {
   width: 85%;
-  padding-top: 50px;
+  padding-top: 3.1em;
 }
 
 nav > ul > li > a {
@@ -626,6 +676,13 @@ display: block;
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+  main {
+    padding:180px 0 0 0;
+      max-width: 854px;
+      margin: auto;
+  }
+
   nav {
     width: 80%;
     padding-top: 60px;
