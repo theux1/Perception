@@ -435,7 +435,11 @@ Otherwise, the classes will override the class with their animation properties*/
   position: absolute;
   &.active
 		transform: scale(1);
-		opacity: 1;
+		opacity: 0.8;
+}
+
+.reload:hover {
+  opacity: 0.9;
 }
 
 
