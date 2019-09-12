@@ -374,7 +374,7 @@ position: absolute;
 width: 20%; /* img aspect ratio: width of original tiger: width of original background*/
 bottom: 2%;
 right: 2%;
-animation: enlarge 40ms 2.75s forwards;
+animation: enlarge 40ms 2.75s forwards, disappear 0.1s 12s forwards;
 }
 
 .bush {
@@ -412,7 +412,7 @@ width: 22%; /* img aspect ratio: width of original hehe: width of original backg
 top: 18%;
 right: 18%;
 opacity: 0;
-animation: appear 0.1s 7s forwards;
+animation: appear 0.1s 7s forwards, disappear 0.1s 12s forwards;
 }
 
 .paused {
