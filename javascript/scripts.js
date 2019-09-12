@@ -47,45 +47,16 @@ setTimeout(function() {
   reloadButton.classList.add('active');
 }, 1);
 
-/*
-$('#reloadbutton').click(function(){
-    $target = $('#anitiger');
-    $target.removeClass('tiger');
-    setTimeout("$target.addClass('tiger');",100)
-});
-$('#reloadbutton').click(function(){
-    $target = $('#anibush');
-    $target.removeClass('bush');
-    setTimeout("$target.addClass('tiger');",100)
-});
-$('#reloadbutton').click(function(){
-    $target = $('#anicoming');
-    $target.removeClass('coming');
-    setTimeout("$target.addClass('coming');",100)
-});
-$('#reloadbutton').click(function(){
-    $target = $('#anigoing');
-    $target.removeClass('going');
-    setTimeout("$target.addClass('going');",100)
-});
-$('#reloadbutton').click(function(){
-    $target = $('#anibestgone');
-    $target.removeClass('bestgone');
-    setTimeout("$target.addClass('bestgone');",100)
-});
-$('#reloadbutton').click(function(){
-    $target = $('#anihehe');
-    $target.removeClass('hehe');
-    setTimeout("$target.addClass('hehe');",100)
-});
-*/
+
+
+// click eventt jquery
 
 $("#reloadbutton").click(function() {
 
-
+//add the formerly removed paused class
   $("#animation").find("img").addClass("paused");
 
-
+//get img by id, then clone the img, insert, and remove the old img by id
    var el     = $("#anibush"),
        newone = el.clone(true);
    el.before(newone);
