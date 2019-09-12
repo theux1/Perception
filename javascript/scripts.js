@@ -1,7 +1,12 @@
 
-
+// open curtain by changing imgs
 function pictureChange() {
   document.getElementById("thecurtain").src = "img/Communication/Mobile/curtain-open-854x4399.svg";
+  setTimeout(closeCurtain, 3000);
+}
+// In function pictureChange() set timer (see above) will trigger the function closeCurtain()
+function closeCurtain() {
+  document.getElementById("thecurtain").src = "img/Communication/Mobile/curtain-closed-854x399.svg";
 }
 
 console.log("Are you ready for some perceptional secrets?")
