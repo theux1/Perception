@@ -70,6 +70,10 @@ ul.social > li {
   float: left;
 }
 
+.floatleft {
+  float: left;
+}
+
 img {
   width: 100%;
 }
@@ -107,9 +111,9 @@ ul, ol {
   nav > ul {
   width: 100%;
   list-style-type: none;
-  padding: 0;
+  padding-top: 4.5em;
   text-align: right;
-  margin-top: 0;
+  margin: 0;
 }
 
 nav > ul > li {
@@ -160,7 +164,7 @@ nav > ul > li > a:hover {
 
 .navtoggle.responsive li  {
   display: block;
-  padding: 19px 0 12px 0;
+  padding: 24px 0 17px 0;
   border-top: 1px solid #2C2C2C;
   width: 200%;
 }
@@ -172,6 +176,7 @@ nav > ul > li > a:hover {
 .logo {
   max-width: 50px;
   margin: 20px 0;
+  float: left;
 }
 
 .mt40 {
@@ -567,6 +572,7 @@ Medium devices (640px and larger)
   nav > ul {
   float: right;
   display: inline-block;
+    padding-top: 0;
 }
 
   nav > ul > li {
@@ -636,7 +642,7 @@ Large devices (854px or larger), because of the 854px limitation of the original
 
 nav {
   width: 85%;
-  padding-top: 3.1em;
+  padding-top: 2.5em;
 }
 
 nav > ul > li > a {
@@ -644,7 +650,7 @@ nav > ul > li > a {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 70px;
   margin: 20px 0;
 }
 
@@ -685,7 +691,7 @@ Large devices (1024px or larger)
 
   nav {
     width: 80%;
-    padding-top: 60px;
+    padding-top: 2.8em;
   }
 
   nav > ul > li > a {
@@ -694,7 +700,6 @@ Large devices (1024px or larger)
 
 
   .logo {
-    max-width: 120px;
-    margin: 20px 0;
+    max-width: 80px;
   }
 }
