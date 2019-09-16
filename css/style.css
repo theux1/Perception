@@ -468,8 +468,8 @@ Otherwise, the classes will override the class with their animation properties*/
 	left: 2%;
   position: absolute;
   &.active
-		transform: scale(1);
-		opacity: 0.8;
+	transform: scale(1);
+	opacity: 0.8;
 }
 
 .reload:hover {
