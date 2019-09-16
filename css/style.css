@@ -14,24 +14,24 @@ Font Color Text (grey-black): #2C2C2C;
 }
 
 body {
-    background-color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #2C2C2C;
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #2C2C2C;
 }
 
 main {
-  padding:80px 0 0 0;
+  padding: 80px 0 0 0;
   /*max-width: 854px;
   margin: auto;*/
 }
 
 header {
   -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  -moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
   position: fixed;
   width: 100%;
   background-color: #ffffff;
@@ -49,15 +49,15 @@ footer .fab {
 }
 
 .social {
-    display: inline-block;
-    width: 100%;
-    list-style-type: none;
-    text-align: right;
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  text-align: right;
 }
 
-ul.social > li {
-    width: 46%;
-    margin: 5px 2%;
+ul.social>li {
+  width: 46%;
+  margin: 5px 2%;
 }
 
 .floatr {
@@ -108,7 +108,7 @@ ul, ol {
   color: #F40606;
 }
 
-  nav > ul {
+nav>ul {
   width: 100%;
   list-style-type: none;
   padding-top: 4.5em;
@@ -116,30 +116,30 @@ ul, ol {
   margin: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   width: 48%;
   margin: 5px 1%;
   text-align: center;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
 }
 
-nav > ul > li > a:visited {
+nav>ul>li>a:visited {
   color: #0046FB;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   color: #F1A30C;
   text-decoration: none;
 }
 
 .navtoggle {
-    line-height: 0;
+  line-height: 0;
 }
 
 .navtoggle li:not(:last-child) {
@@ -162,14 +162,14 @@ nav > ul > li > a:hover {
   width: 50%;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
   padding: 24px 0 17px 0;
   border-top: 1px solid #2C2C2C;
   width: 200%;
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
@@ -180,13 +180,11 @@ nav > ul > li > a:hover {
 }
 
 .mt40 {
-margin: 40px 0 0 0;
+  margin: 40px 0 0 0;
 }
-
 
 /* Containers & columns
 ====================================*/
-
 .container {
   padding: 0 20px;
 }
@@ -204,15 +202,13 @@ margin: 40px 0 0 0;
 }
 
 .row {
-     margin: auto;
-     display: inline-block;
-     width: 100%;
-   }
+  margin: auto;
+  display: inline-block;
+  width: 100%;
+}
 
-   /* Typography
+/* Typography
    ====================================*/
-
-
 h1, h2, h3 {
   line-height: 1.4;
 }
@@ -236,23 +232,26 @@ h3 {
 
 /* Links & buttons
 =================================================*/
-
 a {
   color: #0046FB;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
   font-weight: 500;
 }
 
-a:visited { /* visited link */
+a:visited {
+  /* visited link */
   color: #F1A30C;
 }
 
 a:hover, a:focus {
   color: #F1A30C;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #0046FB;
 }
 
@@ -276,16 +275,16 @@ a:active { /* selected link */
 }
 
 .button:active {
-color: #0046FB;
+  color: #0046FB;
 }
 
 /* index
 ================================================*/
 .raisin {
-  font-family:'rum raisin', sans-serif;
+  font-family: 'rum raisin', sans-serif;
   font-size: 4em;
-    margin: 0.9em 0 0 0;
-    animation: 30s color-change infinite linear;
+  margin: 0.9em 0 0 0;
+  animation: 30s color-change infinite linear;
 }
 
 .welcome {
@@ -306,43 +305,56 @@ color: #0046FB;
 }
 
 .fouroffour {
- max-width: 172px;
+  max-width: 172px;
 }
 
 @keyframes color-change {
-  0% {color: #000000;}
-  25% {color: #454ABC;}
-  50% {color: #000000;}
-  75% {color: #F1A30C;}
-  100% {color: #000000;}
+  0% {
+    color: #000000;
+  }
+
+  25% {
+    color: #454ABC;
+  }
+
+  50% {
+    color: #000000;
+  }
+
+  75% {
+    color: #F1A30C;
+  }
+
+  100% {
+    color: #000000;
+  }
 }
 
 .dot1 {
-    animation: 1s color-change infinite linear;
-  }
+  animation: 1s color-change infinite linear;
+}
 
 .dot2 {
-    animation: 1s color-change infinite linear;
-    animation-delay: 0.4s;
-  }
+  animation: 1s color-change infinite linear;
+  animation-delay: 0.4s;
+}
 
 .dot3 {
-    animation: 1s color-change infinite linear;
-    animation-delay: 0.7s;
+  animation: 1s color-change infinite linear;
+  animation-delay: 0.7s;
 }
 
 /* ids
 =================================*/
-
 #legend {
   text-align: center;
-margin: 5em 0;
-font-weight: 500;
+  margin: 5em 0;
+  font-weight: 500;
 }
 
 #smiley, #sweatsmiley {
-max-width: 38px;
-margin: 0;
+  max-width: 38px;
+  margin: 0;
 }
 
 #notabird {
@@ -350,8 +362,8 @@ margin: 0;
 }
 
 #net {
-max-width: 407px;
-margin: 40px auto;
+  max-width: 407px;
+  margin: 40px auto;
 }
 
 #apple {
@@ -369,11 +381,11 @@ margin: 40px auto;
   content: "";
   clear: both;
   display: table;
-  }
+}
 
 #sokrates {
-max-width: 407px;
-text-align: center;
+  max-width: 407px;
+  text-align: center;
 }
 
 #typo {
@@ -386,173 +398,211 @@ text-align: center;
 
 /* Animation on association.html
 ==========================*/
-
 .oncetoomany {
-   position: relative;
-   padding-bottom: 49%; /* for different screen sizes*/
-   /* img aspect ratio: height of original background: width of original background.
+  position: relative;
+  padding-bottom: 49%;
+  /* for different screen sizes*/
+  /* img aspect ratio: height of original background: width of original background.
    This will add 49% of the width (responsive) to the bottom padding)*/
 }
 
 .oncetoomany img {
-position: absolute;
+  position: absolute;
 }
 
 .oncetoomany::after {
   content: "";
   clear: both;
   display: table;
-  }
+}
 
 .tiger {
-width: 20%; /* img aspect ratio: width of original tiger: width of original background*/
-bottom: 2%;
-right: 2%;
-animation: enlarge 40ms 2.75s forwards, disappear 0.1s 9s forwards;
+  width: 20%;
+  /* img aspect ratio: width of original tiger: width of original background*/
+  bottom: 2%;
+  right: 2%;
+  animation: enlarge 40ms 2.75s forwards, disappear 0.1s 9s forwards;
 }
 
 .bush {
-width: 41%; /* img aspect ratio: width of original bush: width of original background*/
-bottom: 0;
-right: 0;
-animation: disappear 0.1s 2.8s forwards;
+  width: 41%;
+  /* img aspect ratio: width of original bush: width of original background*/
+  bottom: 0;
+  right: 0;
+  animation: disappear 0.1s 2.8s forwards;
 }
 
 .coming {
-width: 24%; /* img aspect ratio: width of original coming: width of original background*/
-bottom: 0;
-left: 0;
-animation: coming 3s, waiting 9s 3s, disappear 0.1s 5.5s forwards; /* Control the lengh of the animation by waiting duration (waiting 'x' 3s)*/
+  width: 24%;
+  /* img aspect ratio: width of original coming: width of original background*/
+  bottom: 0;
+  left: 0;
+  animation: coming 3s, waiting 9s 3s, disappear 0.1s 5.5s forwards;
+  /* Control the lengh of the animation by waiting duration (waiting 'x' 3s)*/
 }
 
 .going {
-width: 24%; /* img aspect ratio: width of original going: width of original background*/
-bottom: 0;
-right: 40%;
-opacity: 0;
-animation: appear 0.1s 5.5s forwards, going 1s 5.8s forwards, hurry 0.1s 6.5s forwards;
+  width: 24%;
+  /* img aspect ratio: width of original going: width of original background*/
+  bottom: 0;
+  right: 40%;
+  opacity: 0;
+  animation: appear 0.1s 5.5s forwards, going 1s 5.8s forwards, hurry 0.1s 6.5s forwards;
 }
 
 .bestgone {
-width: 22%; /* img aspect ratio: width of original bestgone: width of original background*/
-top: 8%;
-right: 25%;
-opacity: 0;
-animation: appear 0.1s 4s forwards, disappear 0.1s 5.5s forwards;
+  width: 22%;
+  /* img aspect ratio: width of original bestgone: width of original background*/
+  top: 8%;
+  right: 25%;
+  opacity: 0;
+  animation: appear 0.1s 4s forwards, disappear 0.1s 5.5s forwards;
 }
 
 .hehe {
-width: 22%; /* img aspect ratio: width of original hehe: width of original background*/
-top: 18%;
-right: 18%;
-opacity: 0;
-animation: appear 0.1s 7s forwards, disappear 0.1s 9s forwards;
+  width: 22%;
+  /* img aspect ratio: width of original hehe: width of original background*/
+  top: 18%;
+  right: 18%;
+  opacity: 0;
+  animation: appear 0.1s 7s forwards, disappear 0.1s 9s forwards;
 }
 
 .paused {
-animation-play-state: paused;
+  animation-play-state: paused;
 }
-/* the .paused class needs to be last in line to the other anomation classes.
-Otherwise, the classes will override the class with their animation properties*/
 
+/* the .paused class needs to be last in line to the other anomation classes.
+Otherwise, the classes will override the class with their animation properties */
 .reload {
-    -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  -moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-	border-radius: 100%;
-	background: #0046FB;
-	cursor: pointer;
-	height: 25px;
-	width: 25px;
-	top: 4%;
-	left: 2%;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
+  border-radius: 100%;
+  background: #0046FB;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+  top: 4%;
+  left: 2%;
   position: absolute;
-  &.active
-	transform: scale(1);
-	opacity: 0.8;
+}
+
+& .active {
+  transform: scale(1);
+  opacity: 0.8;
 }
 
 .reload:hover {
   opacity: 0.9;
 }
 
+#reloadbutton {
+  transition: transform 500ms cubic-bezier(.85, -0.48, .26, .67);
+  height: 100%;
+  width: 100%;
+}
 
-	#reloadbutton {
-    transition: transform 500ms cubic-bezier(.85,-0.48,.26,.67);
-		height: 100%;
-		width: 100%;
-		}
-
-    .svgpath {
-      fill: #ffffff;
-    }
+.svgpath {
+  fill: #ffffff;
+}
 
 @keyframes coming {
- from {left: 0;}
-    to {left: 40%;}
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 40%;
+  }
 }
 
 @keyframes waiting {
-  from {left: 40%;}
-     to {left: 40%;}
- }
-
- @keyframes disappear {
-   from {opacity: 1;}
-      to {opacity: 0;}
+  from {
+    left: 40%;
   }
 
-  @keyframes appear {
-    from {opacity: 0;}
-       to {opacity: 1;}
-   }
+  to {
+    left: 40%;
+  }
+}
 
-   @keyframes enlarge {
-     from {width: 20%;}
-        to {width: 25%;}
-    }
+@keyframes disappear {
+  from {
+    opacity: 1;
+  }
 
-    @keyframes going {
-     from {left: 40%;}
-        to {left: -100%;}
-    }
+  to {
+    opacity: 0;
+  }
+}
 
-    @keyframes hurry {
-     from {transform: rotate(0deg);}
-        to {transform: rotate(10deg);}
-    }
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
 
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes enlarge {
+  from {
+    width: 20%;
+  }
+
+  to {
+    width: 25%;
+  }
+}
+
+@keyframes going {
+  from {
+    left: 40%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes hurry {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}
 
 /* ==============================
 Medium devices (500px and larger)
 ================================= */
-
 @media only screen and (min-width: 500px) {
-.reload {
-  height: 11.93317%;
-	width: 5.85480%;
- }
+  .reload {
+    height: 11.93317%;
+    width: 5.85480%;
+  }
 
- .welcome {
-     margin: 0.2em 0 2em 0;
- }
-
+  .welcome {
+    margin: 0.2em 0 2em 0;
+  }
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-
 @media only screen and (min-width: 640px) {
-
   body {
-      font-size: 18px;
+    font-size: 18px;
   }
 
   main {
-    padding:100px 0 0 0;
-      max-width: 854px;
-      margin: auto;
+    padding: 100px 0 0 0;
+    max-width: 854px;
+    margin: auto;
   }
 
   nav {
@@ -569,64 +619,62 @@ Medium devices (640px and larger)
     display: none;
   }
 
-  nav > ul {
-  float: right;
-  display: inline-block;
+  nav>ul {
+    float: right;
+    display: inline-block;
     padding-top: 0;
-}
+  }
 
-  nav > ul > li {
+  nav>ul>li {
     display: inline-block;
     width: auto;
     margin: 5px 1%;
     float: none;
   }
 
-[class*="col-"] {
-  display: inline-block;
-  margin: 0 0 0 3.5em;
-}
+  [class*="col-"] {
+    display: inline-block;
+    margin: 0 0 0 3.5em;
+  }
 
-.col-md-6 {
-  width: 50%;
-  float: right;
-  padding: 10px 0 0 0;
-  margin: 0 0 0 1.5em;
-}
+  .col-md-6 {
+    width: 50%;
+    float: right;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 1.5em;
+  }
 
-.overflow::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  .overflow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-.padding {
-  padding-top: 20px;
-}
+  .padding {
+    padding-top: 20px;
+  }
 
-.welcome {
+  .welcome {
     margin: 0.2em 0 3.5em 0;
+  }
+
+  nav>ul>li>a {
+    font-size: 14px;
+  }
+
+  #money {
+    max-width: 640px;
+  }
 }
 
-nav > ul > li > a {
-  font-size: 14px;
-}
-
-#money {
-  max-width: 640px;
-}
-
-}
 /* ==============================
 Large devices (854px or larger), because of the 854px limitation of the original design
 ================================= */
-
 @media only screen and (min-width: 854px) {
-
   main {
-    padding:150px 0 0 0;
-      max-width: 854px;
-      margin: auto;
+    padding: 150px 0 0 0;
+    max-width: 854px;
+    margin: auto;
   }
 
   [class*="col-"] {
@@ -640,53 +688,51 @@ Large devices (854px or larger), because of the 854px limitation of the original
     margin: 0 0 0 1.5em;
   }
 
-nav {
-  width: 85%;
-  padding-top: 2.5em;
-}
-
-nav > ul > li > a {
-  font-size: 18px;
-}
-
-.logo {
-  max-width: 70px;
-  margin: 20px 0;
-}
-
-#youtube1::after, #youtube2::after {
-  content: "";
-  clear: both;
-  display: table;
+  nav {
+    width: 85%;
+    padding-top: 2.5em;
   }
 
-#youtube1 {
-  max-width: 407px;
-}
+  nav>ul>li>a {
+    font-size: 18px;
+  }
 
-#youtube2 {
-  max-width: 407px;
-}
+  .logo {
+    max-width: 70px;
+    margin: 20px 0;
+  }
 
-#typo {
-width: 50%;
-float: right;
-padding: 10px 0 0 0;
-margin: 0 0 0 1.5em;
-display: block;
-}
+  #youtube1::after, #youtube2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
+  #youtube1 {
+    max-width: 407px;
+  }
+
+  #youtube2 {
+    max-width: 407px;
+  }
+
+  #typo {
+    width: 50%;
+    float: right;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 1.5em;
+    display: block;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
   main {
-    padding:180px 0 0 0;
-      max-width: 854px;
-      margin: auto;
+    padding: 180px 0 0 0;
+    max-width: 854px;
+    margin: auto;
   }
 
   nav {
@@ -694,10 +740,9 @@ Large devices (1024px or larger)
     padding-top: 2.8em;
   }
 
-  nav > ul > li > a {
+  nav>ul>li>a {
     font-size: 20px;
   }
-
 
   .logo {
     max-width: 80px;
