@@ -185,6 +185,7 @@ nav>ul>li>a:hover {
 
 .textpurpledot, .textapple {
   transform: rotate(-20deg);
+  min-width: 128px;
 }
 
 .textpengu, .textnet {
@@ -710,6 +711,10 @@ Medium devices (640px and larger)
 
 [class*="col-s"] {
   margin: 0px 0 0 6em;
+}
+
+.textpurpledot {
+  min-width: 143px;
 }
 }
 /* ==============================
