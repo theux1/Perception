@@ -277,15 +277,18 @@ a:active {
 }
 
 .button:hover {
-  color: #F1A30C;
   opacity: 0.8;
   text-decoration: none;
 }
 
 .button:active {
-  color: #0046FB;
+  color: #F1A30C;
+  opacity: 0.8;
 }
 
+.button:disabled {
+  opacity: 0.8;
+}
 /* index
 ================================================*/
 .raisin {
@@ -511,38 +514,6 @@ width: auto;
 
 /* the .paused class needs to be last in line to the other anomation classes.
 Otherwise, the classes will override the class with their animation properties */
-.reload {
-  -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  -moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.2);
-  border-radius: 100%;
-  background: #0046FB;
-  cursor: pointer;
-  height: 25px;
-  width: 25px;
-  top: 4%;
-  left: 2%;
-  position: absolute;
-}
-
-& .active {
-  transform: scale(1);
-  opacity: 0.8;
-}
-
-.reload:hover {
-  opacity: 0.9;
-}
-
-#reloadbutton {
-  transition: transform 500ms cubic-bezier(.85, -0.48, .26, .67);
-  height: 100%;
-  width: 100%;
-}
-
-.svgpath {
-  fill: #ffffff;
-}
 
 @keyframes coming {
   from {

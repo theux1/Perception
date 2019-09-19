@@ -37,35 +37,12 @@ function startAnimation() {
   element5.classList.remove("paused");
   var element6 = document.getElementById("anihehe");
   element6.classList.remove("paused");
+  setTimeout($.fn.reset, 11000);
 }
 
-// reset svg var
-var reloadButton = document.querySelector(".reload");
-var reloadSvg = document.querySelector("#reloadbutton");
-var reloadEnabled = true;
-var rotation = 0;
+// timout event jquery
 
-// reset svg Events
-reloadButton.addEventListener("click", function() {
-  reloadClick();
-});
-
-// reset svg Functions
-function reloadClick() {
-  reloadEnabled = false;
-  rotation -= 180;
-  reloadSvg.style.webkitTransform = "translateZ(0px) rotateZ( " + rotation + "deg )";
-  reloadSvg.style.MozTransform = "translateZ(0px) rotateZ( " + rotation + "deg )";
-  reloadSvg.style.transform = "translateZ(0px) rotateZ( " + rotation + "deg )";
-}
-// Show reset svg
-setTimeout(function() {
-  reloadButton.classList.add("active");
-}, 1);
-
-// click eventt jquery
-
-$("#reloadbutton").click(function() {
+$.fn.reset = function () {
   // add the formerly removed paused class
   $("#animation").find("img").addClass("paused");
   // get img by id, then clone the img, insert, and remove the old img by id
@@ -98,4 +75,4 @@ $("#reloadbutton").click(function() {
     newone6 = el6.clone(true);
   el6.before(newone6);
   $("." + el6.attr("id") + ":last").remove();
-});
+};
