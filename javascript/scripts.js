@@ -44,9 +44,9 @@ function startAnimation() {
 
 // timout event jquery
 
-$.fn.reset = function () {
+$.fn.reset = function() {
   // add the formerly removed paused class
-document.getElementById("strolling").classList.remove("disablebutton");
+  document.getElementById("strolling").classList.remove("disablebutton");
 
   $("#animation").find("img").addClass("paused");
   // get img by id, then clone the img, insert, and remove the old img by id

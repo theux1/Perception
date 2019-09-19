@@ -191,6 +191,7 @@ nav>ul>li>a:hover {
 .textpengu, .textnet {
   transform: rotate(20deg);
 }
+
 /* Containers & columns
 ====================================*/
 .container {
@@ -290,6 +291,7 @@ a:active {
   pointer-events: none;
   opacity: 0.8;
 }
+
 /* index
 ================================================*/
 .raisin {
@@ -321,19 +323,19 @@ a:active {
 }
 
 [class*="offour"] {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .oneoffour img {
   top: -2em;
-left: 6em;
-position: absolute;
+  left: 6em;
+  position: absolute;
 }
 
 .twooffour img {
   top: -2em;
-left: 6em;
+  left: 6em;
 }
 
 .threeoffour img {
@@ -342,11 +344,10 @@ left: 6em;
 
 .fouroffour img {
   top: 5em;
-
 }
 
 .col-s-3 img {
-width: auto;
+  width: auto;
 }
 
 @keyframes color-change {
@@ -515,7 +516,6 @@ width: auto;
 
 /* the .paused class needs to be last in line to the other anomation classes.
 Otherwise, the classes will override the class with their animation properties */
-
 @keyframes coming {
   from {
     left: 0;
@@ -604,8 +604,9 @@ Medium devices (500px and larger)
     float: left;
     display: inline-block;
     margin: 0px 0 0 4em;
+  }
 }
-}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -676,19 +677,19 @@ Medium devices (640px and larger)
     max-width: 640px;
   }
 
+  .row {
+    margin: auto;
+  }
 
-.row {
-  margin: auto;
+  [class*="col-s"] {
+    margin: 0px 0 0 6em;
+  }
+
+  .textpurpledot {
+    min-width: 143px;
+  }
 }
 
-[class*="col-s"] {
-  margin: 0px 0 0 6em;
-}
-
-.textpurpledot {
-  min-width: 143px;
-}
-}
 /* ==============================
 Large devices (854px or larger), because of the 854px limitation of the original design
 ================================= */
@@ -700,8 +701,8 @@ Large devices (854px or larger), because of the 854px limitation of the original
   }
 
   [class*="col-"] {
-      width: 25%;
-      margin: auto;
+    width: 25%;
+    margin: auto;
   }
 
   .col-lg-6 {
