@@ -25,6 +25,8 @@ console.log("Are you ready for some perceptional secrets?");
 function startAnimation() {
   /* the idea is to set a class .paused to freeze the animation when the site renders right away,
   then remove the class via JS, the animation will then continue */
+  document.getElementById("strolling").classList.add("disablebutton");
+
   var element1 = document.getElementById("anitiger");
   element1.classList.remove("paused");
   var element2 = document.getElementById("anibush");
@@ -44,6 +46,8 @@ function startAnimation() {
 
 $.fn.reset = function () {
   // add the formerly removed paused class
+document.getElementById("strolling").classList.remove("disablebutton");
+
   $("#animation").find("img").addClass("paused");
   // get img by id, then clone the img, insert, and remove the old img by id
   var el1 = $("#anibush"),
